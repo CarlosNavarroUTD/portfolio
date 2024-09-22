@@ -338,3 +338,156 @@ p{
     width: 80px;
     height: 80px;
 }
+
+/* Responsive styles */
+
+/* Mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+    main {
+      max-width: 90%;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .profile-photo {
+      width: 300px;
+      height: auto;
+    }
+    #about {
+      flex-direction: column;
+      gap: 20px;
+    }
+    #sobre-mi > .sub-section {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .stats {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .job-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-list {
+      max-width: 90%;
+    }
+    .hobbies-icons {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .hobbies-icons img {
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+    }
+  }
+  
+  /* Tablet devices (max-width: 1024px) */
+  @media (max-width: 1024px) {
+    main {
+      max-width: 80%;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 22px;
+    }
+    .profile-photo {
+      width: 400px;
+      height: auto;
+    }
+    #about {
+      flex-direction: row;
+      gap: 30px;
+    }
+    #sobre-mi > .sub-section {
+      flex-direction: row;
+      gap: 40px;
+    }
+    .stats {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .skills-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .job-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .contact-list {
+      max-width: 80%;
+    }
+    .hobbies-icons {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .hobbies-icons img {
+      width: 60px;
+      height: 60px;
+      margin: 15px;
+    }
+  }
+  
+  /* Large desktop devices (min-width: 1200px) */
+  @media (min-width: 1200px) {
+    main {
+      max-width: 1000px;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 24px;
+    }
+    .profile-photo {
+      width: 500px;
+      height: auto;
+    }
+    #about {
+      flex-direction: row;
+      gap: 40px;
+    }
+    #sobre-mi > .sub-section {
+      flex-direction: row;
+      gap: 60px;
+    }
+    .stats {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .skills-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .job-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .contact-list {
+      max-width: 1000px;
+    }
+    .hobbies-icons {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .hobbies-icons img {
+      width: 80px;
+      height: 80px;
+      margin: 20px;
+    }
+  }
+  
