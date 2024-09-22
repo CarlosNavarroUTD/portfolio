@@ -20,90 +20,156 @@
         </section>
 
         <section id="sobre-mi">
-            <div class="sub-section"><h2>Sobre mi</h2></div>
+            <div class="title_section"><h2>Sobre Mi</h2></div>
+
             <div class="sub-section">
-                <div class="column"><!--w50%-->
+                <div class="column">
                     <p>Tengo amplia experiencia trabajando en equipos ya sea presencial o a distancia. Busco una oportunidad laboral en la que demostrar mis habilidades y adquirir más experiencia profesional.</p>
                 </div>
-                <div class="column"><!--w50% los elementos deberan acomodarse 2 y 2 talvez con grid-->
+                <div class="column">
                     <div class="stats">
-                        <div class="stat-item"><span>+2</span>Años de experiencia</div>
-                        <div class="stat-item"><span>+30</span>Clientes Satisfechos</div>
-                        <div class="stat-item"><span>+15</span>Sitios Web Entregados</div>
-                        <div class="stat-item"><span>+10</span>certificaciones</div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span data-value="2">0</span></div>
+                            <div class="stat-text">Años de experiencia</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span data-value="30">0</span></div>
+                            <div class="stat-text">Clientes Satisfechos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span data-value="15">0</span></div>
+                            <div class="stat-text">Sitios Web Entregados</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number"><span data-value="10">0</span></div>
+                            <div class="stat-text">Certificaciones</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
+            <div class="title_section"><h2>Skills</h2></div>
+            
             <div class="skills-grid">
                 <div class="skill-category">
-                    <img src="frontend-icon.png" alt="Frontend"><h3>FrontEnd</h3>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
-                    </ul>
+                    <div class="row">
+                        <img src="statics/imgs/escritorio.png" alt="Frontend">
+                        <h3>FrontEnd</h3>
+                    </div>
+                    <div class="row">
+                        <div class="skill"><img src="statics/imgs/html-5.png" alt="HTML5"><p>HTML5</p></div>
+                        <div class="skill"><img src="statics/imgs/css-3.png" alt="CSS3"><p>CSS3</p></div>
+                        <div class="skill"><img src="statics/imgs/javascrip-logo.png" alt="JavaScript"><p>JavaScript</p></div>
+                        <div class="skill"><img src="statics/imgs/bootstrap-5-1.svg" alt="Bootstrap"><p>Bootstrap</p></div>
+                    </div>
                 </div>
                 <div class="skill-category">
-                    <img src="backend-icon.png" alt="Backend">
-                    <h3>BackEnd</h3>
-                    <ul>
-                        <li>Django</li>
-                        <li>Python</li>
-                        <li>AWS</li>
-                        <li>MySQL</li>
-                    </ul>
+                    <div class="row">
+                        <img src="statics/imgs/dev.png" alt="Backend">
+                        <h3>BackEnd</h3>
+                    </div>
+                    <div class="row">
+                        <div class="skill"><img src="statics/imgs/djangoproject.svg" alt="Django"><p>Django</p></div>
+                        <div class="skill"><img src="statics/imgs/python.png" alt="Python"><p>Python</p></div>
+                        <div class="skill"><img src="statics/imgs/aws-logo.svg" alt="AWS"><p>AWS</p></div>
+                        <div class="skill"><img src="statics/imgs/mysql.png" alt="MySQL"><p>MySQL</p></div>
+                    </div>
                 </div>
                 <div class="skill-category">
-                    <img src="collaboration-icon.png" alt="Colaboración">
-                    <h3>Colaboración</h3>
-                    <ul>
-                        <li>Notion</li>
-                        <li>Slack</li>
-                        <li>GitHub</li>
-                        <li>Discord</li>
-                    </ul>
+                    <div class="row">
+                        <img src="statics/imgs/collaboration-icon.png" alt="Colaboración">
+                        <h3>Colaboración</h3>
+                    </div>
+                    <div class="row">
+                        <div class="skill"><img src="statics/imgs/Notion-logo.svg" alt="Notion"><p>Notion</p></div>
+                        <div class="skill"><img src="statics/imgs/slack-logo.svg" alt="Slack"><p>Slack</p></div>
+                        <div class="skill"><img src="statics/imgs/github-log.png" alt="GitHub"><p>GitHub</p></div>
+                        <div class="skill"><img src="statics/imgs/discord.svg" alt="Discord"><p>Discord</p></div>
+                    </div>
                 </div>
             </div>
         </section>
-<!--ssiguiendo la misma lógica de mis comentarios agregalo en todos las demas secciones-->
         <section id="experiencia">
-            <h2>Experiencia</h2>
-            <div class="job">
+            
+            <div class="title_section"><h2>Experiencia</h2></div>
+            <div class="job-info">
                 <h3>Axol Marketing</h3>
                 <p>(2022-hoy)</p>
-                <ul><!--en este caso igual, cada uno es un div con imagen y texto en fila, se comodaran en 2 columnas y 3 filas-->
-                    <li>Manejo de CMS: WordPress, Wix, Shopify</li>
-                    <li>Gestión de CRM: HubSpot, Clientify, Odoo</li>
-                    <li>Optimización web: SEO, diseño responsivo y velocidad de carga</li>
-                    <li>Desarrollo web: HTML, CSS, JavaScript y frameworks relacionados</li>
-                    <li>Análisis de datos: Looker Studio, Google y Facebook Analytics</li>
-                    <li>Capacitaciones: Sesiones de instrucción en estas herramientas</li>
-                </ul>
+            </div><br>
+            <div class="job-grid">
+                <div class="job-item">
+                    <img src="statics/imgs/cms.png" alt="CMS">
+                    <h4>Manejo de CMS</h4>
+                    <p>WordPress, Wix, Shopify</p>
+                </div>
+                <div class="job-item">
+                    <img src="statics/imgs/crm.png" alt="CRM">
+                    <h4>Gestión de CRM</h4>
+                    <p>HubSpot, Clientify, Odoo</p>
+                </div>
+                <div class="job-item">
+                    <img src="statics/imgs/diseno-web.png" alt="Optimización web">
+                    <h4>Optimización web</h4>
+                    <p>SEO, diseño responsivo y velocidad de carga</p>
+                </div>
+                <div class="job-item">
+                    <img src="statics/imgs/desarrollador-de-software.png" alt="Desarrollo web">
+                    <h4>Desarrollo web</h4>
+                    <p>HTML, CSS, JavaScript y frameworks relacionados</p>
+                </div>
+                <div class="job-item">
+                    <img src="statics/imgs/analitica.png" alt="Análisis de datos">
+                    <h4>Análisis de datos</h4>
+                    <p>Looker Studio, Google y Facebook Analytics</p>
+                </div>
+                <div class="job-item">
+                    <img src="statics/imgs/agente-de-servicio-al-cliente.png" alt="Capacitaciones">
+                    <h4>Capacitaciones</h4>
+                    <p>Sesiones de instrucción en estas herramientas</p>
+                </div>
             </div>
+
         </section>
 
         <section id="contacto">
-            <h2>Contáctame</h2>
-            <ul>
-                <li><img src="phone-icon.png" alt="Teléfono">+52 1 663-205-8150</li>
-                <li><img src="email-icon.png" alt="Email">sharlye0541@gmail.com</li>
-                <li><img src="linkedin-icon.png" alt="LinkedIn">Carlos Jair Navarro Huerta</li>
-            </ul>
+            <div class="title_section"><h2>Contáctame</h2></div>
+            <div class="contact-list">
+                <div class="contact-item">
+                    <img src="statics/imgs/whatsapp.png" alt="Teléfono">
+                    <p>+52 1 663-205-8150</p>
+                    <button class="copy-btn" data-clipboard-text="5216632058150" title="Copiar"><img src="statics/imgs/copiar.png" alt="Copiar"></button>
+                    <button class="send-btn" data-type="phone" title="Enviar"><img src="statics/imgs/enviar.png" alt="Enviar"></button>
+                </div>
+                <div class="contact-item">
+                    <img src="statics/imgs/correo-electronico.png" alt="Email">
+                    <p>sharlye0541@gmail.com</p>
+                    <button class="copy-btn" data-clipboard-text="sharlye0541@gmail.com" title="Copiar"><img src="statics/imgs/copiar.png" alt="Copiar"></button>
+                    <button class="send-btn" data-type="email" title="Enviar"><img src="statics/imgs/enviar.png" alt="Enviar"></button>
+                </div>
+                <div class="contact-item">
+                    <img src="statics/imgs/logotipo-de-linkedin.png" alt="LinkedIn">
+                    <p>Carlos Jair Navarro Huerta</p>
+                    <button class="copy-btn" data-clipboard-text="Carlos Jair Navarro Huerta" title="Copiar"><img src="statics/imgs/copiar.png" alt="Copiar"></button>
+                    <button class="send-btn" data-type="linkedin" title="Enviar"><img src="statics/imgs/enviar.png" alt="Enviar"></button>
+                </div>
+            </div>
         </section>
 
         <section id="hobbies">
-            <h2>Hobbies</h2>
+            <div class="title_section"><h2>Hobbies</h2></div>
             <div class="hobbies-icons">
-                <img src="guitar-icon.png" alt="Guitarra">
-                <img src="game-icon.png" alt="Videojuegos">
-                <img src="bike-icon.png" alt="Ciclismo">
-                <img src="music-icon.png" alt="Música">
+                <img src="statics/imgs/guitarra-electrica.png" alt="Guitarra">
+                <img src="statics/imgs/origami-de-papel.png" alt="Origami">
+                <img src="statics/imgs/consola.png" alt="Videojuegos">
+                <img src="statics/imgs/ciclismo.png" alt="Ciclismo">
+                <img src="statics/imgs/jardineria.png" alt="jardineria">
             </div>
         </section>
     </main>
+    <script src="statics/js/animated-stats.js"></script>
+    <script src="statics/js/contact_buttons.js"></script>
+
 </body>
 </html>
