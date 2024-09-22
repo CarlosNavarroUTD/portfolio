@@ -359,7 +359,7 @@ p{
       font-size: 20px;
     }
     .profile-photo {
-      width: 300px;
+      width: 120px;
       height: auto;
     }
     #about {
@@ -408,7 +408,7 @@ p{
       font-size: 22px;
     }
     .profile-photo {
-      width: 400px;
+      width: 150px;
       height: auto;
     }
     #about {
@@ -457,7 +457,7 @@ p{
       font-size: 24px;
     }
     .profile-photo {
-      width: 500px;
+      width: 180px;
       height: auto;
     }
     #about {
@@ -490,4 +490,3 @@ p{
       margin: 20px;
     }
   }
-  
