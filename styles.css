@@ -358,7 +358,11 @@ p{
     p {
       font-size: 20px;
     }
-    .profile-photo {
+    #about{
+      display: flex;
+      flex-direction: column;
+    }
+    #about .profile-photo {
       width: 120px;
       height: auto;
     }
