@@ -11,6 +11,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 :root {
     --bg-color: #0a0a1f;
     --text-color: #ffffff;
@@ -25,7 +26,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.highlight {
+  color: var(--highlight-color);
+}
 body {
     font-family: 'Source Code Pro', monospace;
     color: var(--text-color);
@@ -88,14 +91,12 @@ p{
     gap: 50px;
 }
 
-.highlight {
-    color: var(--highlight-color);
-}
+
 
 .profile-photo {
-    width: 500px;
-/*  max-width: 800px;*/
-    height: auto;
+    /*width: 1000px;
+  max-width: 800px;
+    height: auto;*/
     border-radius: 50%;
 }
 #sobre-mi {
@@ -358,17 +359,13 @@ p{
     p {
       font-size: 20px;
     }
-    #about{
-      display: flex;
+    #about {
       flex-direction: column;
+      gap: 20px;
     }
     #about .profile-photo {
       width: 120px;
       height: auto;
-    }
-    #about {
-      flex-direction: column;
-      gap: 20px;
     }
     #sobre-mi > .sub-section {
       flex-direction: column;
